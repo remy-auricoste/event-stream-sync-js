@@ -23,7 +23,7 @@ EventStream.prototype.subscribe = function(fonction) {
 }
 EventStream.prototype.subEventStream = function(key) {
     return this.filter(function(message) {
-        return message[key] !== undefined;
+        return message && message[key] !== undefined;
     }).map(function(message) {
         return message[key];
     });
