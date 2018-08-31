@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --require './src/tests' 'src/**/*.spec.js'"
   },
-  "author": "",
+  "author": "Rémy Auricoste",
   "license": "ISC",
   "devDependencies": {
     "rauricoste-tests": "0.0.x"
